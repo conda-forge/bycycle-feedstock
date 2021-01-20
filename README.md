@@ -5,11 +5,13 @@ Home: https://github.com/bycycle-tools/bycycle
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bycycle-feedstock/blob/master/LICENSE.txt)
 
 Summary: Bycycle is a python implementation of a cycle-by-cycle approach to analyzing neural oscillations (Cole & Voytek, J Neurophysiol 2019).
 
+Development: https://github.com/bycycle-tools/bycycle
 
+Documentation: https://bycycle-tools.github.io/bycycle/
 
 Current build status
 ====================
