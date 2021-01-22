@@ -20,11 +20,11 @@ requirements:
     - pip
   run:
     - python >=3.5
-    - numpy >= 1.18.5
-    - scipy >=  1.4.1
-    - pandas >= 0.25.3
+    - numpy >=1.18.5
+    - scipy >=1.4.1
+    - pandas >=0.25.3
     - matplotlib-base
-    - neurodsp >= 2.1.0
+    - neurodsp >=2.1.0
 
 test:
   imports:
