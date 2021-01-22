@@ -32,8 +32,9 @@ test:
     - bycycle.burst
     - bycycle.cyclepoints
     - bycycle.features
-    - bycycle.filt
-    - bycycle.sim
+    - bycycle.group
+    - bycycle.plts
+    - bycycle.utils
 
 about:
   home: https://github.com/bycycle-tools/bycycle
