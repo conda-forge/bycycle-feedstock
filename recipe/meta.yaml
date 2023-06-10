@@ -1,5 +1,5 @@
 {% set name = "bycycle" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/bycycle-tools/bycycle/archive/{{ version }}.tar.gz
-  sha256: 78817687a95bd6ab3ff778603bb2c06c5ebe91a8fc4cced761996197e45f4b2e
+  sha256: add8d0d8328786937d1f881398f759f8ac245f81b9300db5ec05b4fe90f96bda
 
 build:
   number: 0
