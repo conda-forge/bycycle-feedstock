@@ -10,16 +10,16 @@ source:
   sha256: add8d0d8328786937d1f881398f759f8ac245f81b9300db5ec05b4fe90f96bda
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.5
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.5
+    - python >={{ python_min }}
     - numpy >=1.18.5
     - scipy >=1.4.1
     - pandas >=0.25.3
@@ -27,6 +27,8 @@ requirements:
     - neurodsp >=2.1.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - bycycle
     - bycycle.burst
